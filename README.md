@@ -2,19 +2,28 @@
 
 Logon Type Code Explanation
 2 Logon via console (keyboard, server KVM, or virtual client)
+
 3 Network logon
+
 4 Batch logon – often used by Scheduled Tasks
+
 5 Windows Service logon
+
 7 Credentials used to lock or unlock screen; RDP session reconnect
+
 8 Network logon sending credentials in cleartext
+
 9 Different credentials used than logged-on user — RunAs /netonly
+
 10 Remote interactive logon (Remote Desktop Protocol)
+
 11 Cached credentials used to logon – system likely offline from DC
+
 12 Cached Remote Interactive (similar to Type 10)
+
 13 Cached unlock (similar to Type 7)
 
 The following Logon Type Codes can be used:[1]
-
 2: Logon via a console (keyboard, server KVM, or virtual client like VNC)
 
 3: Network logon (often using something like SMB for drive mapping)
