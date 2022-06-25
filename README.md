@@ -41,3 +41,6 @@ The following Logon Type Codes can be used:[1]
 A 4624 successful logon and a 4647 user-initiated logoff.
 The Logon ID allows us to tie the two events together and determine theamount of time the user was logged in during this session.
 Remember that 4634 successful logoff events can also be used in place of 4647 events when they exist.
+
+Determining session length is most useful for interactive (Type 2, 10, 11, 12) logons.
+Other Logon Types like batch and network (Type 3, 5) tend to connect for only short periods.
