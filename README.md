@@ -23,3 +23,8 @@ The following Logon Type Codes can be used:[1]
 12: Cached credentials used for a remote interactive logon (RDP). Previously rare, but now being seen when Microsoft “live” accounts are used for authentication on standalone workstations
 
 13: Cached credentials used for an unlock operation
+
+
+A 4624 successful logon and a 4647 user-initiated logoff.
+The Logon ID allows us to tie the two events together and determine theamount of time the user was logged in during this session.
+Remember that 4634 successful logoff events can also be used in place of 4647 events when they exist.
